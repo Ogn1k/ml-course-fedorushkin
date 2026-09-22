@@ -1,0 +1,12 @@
+{
+  "created": "2026-09-22",
+  "python": "3.14.0",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.8.0",
+  "random_state": 42,
+  "target": "Survived",
+  "sex_classes": [
+    "female",
+    "male"
+  ]
+}
