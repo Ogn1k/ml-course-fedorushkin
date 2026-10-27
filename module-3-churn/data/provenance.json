@@ -1,0 +1,9 @@
+{
+  "download_date": "2026-10-27",
+  "url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+  "assignment_source": "https://www.kaggle.com/datasets/blastchar/telco-customer-churn",
+  "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "rows": 7043,
+  "columns": 21,
+  "note": "Original CSV, unchanged bytes; preprocessing is inside pipelines."
+}

@@ -1,0 +1,39 @@
+{
+  "Linear Regression":{
+    "cv_rmse_log":0.1376919997,
+    "cv_std":0.0124005228,
+    "search_seconds":0.6405941001,
+    "fit_seconds":0.0819253922,
+    "parameters":{
+
+    }
+  },
+  "Ridge":{
+    "cv_rmse_log":0.1127692024,
+    "cv_std":0.0056460883,
+    "search_seconds":4.0039082998,
+    "fit_seconds":0.1076004505,
+    "parameters":{
+      "model__alpha":30
+    }
+  },
+  "Lasso":{
+    "cv_rmse_log":0.111956767,
+    "cv_std":0.0055838217,
+    "search_seconds":9.3232739,
+    "fit_seconds":0.3615083694,
+    "parameters":{
+      "model__alpha":0.0005
+    }
+  },
+  "ElasticNet":{
+    "cv_rmse_log":0.1118141035,
+    "cv_std":0.0051955246,
+    "search_seconds":17.3495241001,
+    "fit_seconds":0.2485220432,
+    "parameters":{
+      "model__alpha":0.001,
+      "model__l1_ratio":0.8
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "train.csv": {
+    "url": "https://raw.githubusercontent.com/Rswcf/houseprices_kaggle/master/train.csv",
+    "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+  },
+  "test.csv": {
+    "url": "https://raw.githubusercontent.com/Rswcf/houseprices_kaggle/master/test.csv",
+    "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+  },
+  "data_description.txt": {
+    "url": "https://raw.githubusercontent.com/Rswcf/houseprices_kaggle/master/data_description.txt",
+    "sha256": "356a4670aa688afa8ba44b1365b633fbbac2dae535fe4638532630607d64070d"
+  }
+}
