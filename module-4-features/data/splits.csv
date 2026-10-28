@@ -1,0 +1,3 @@
+split,rows,positive_share
+train,9764,0.15628840639082342
+test,2441,0.15649324047521507

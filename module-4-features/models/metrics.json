@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8783285538713642,
+      "Precision": 0.5812619502868069,
+      "Recall": 0.7958115183246073,
+      "F1": 0.6718232044198895,
+      "ROC_AUC": 0.9312048496067578,
+      "PR_AUC": 0.7164218979952861,
+      "CV_ROC_AUC": 0.9307728808030682,
+      "Fit_seconds": 1.0211871000938118
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.882425235559197,
+      "Precision": 0.59958071278826,
+      "Recall": 0.7486910994764397,
+      "F1": 0.6658905704307334,
+      "ROC_AUC": 0.9291909608944514,
+      "PR_AUC": 0.7443724572697908,
+      "CV_ROC_AUC": 0.9265003847951128,
+      "Fit_seconds": 0.7654258001130074
+    },
+    {
+      "Model": "LightGBM",
+      "Accuracy": 0.8697255223269152,
+      "Precision": 0.5583941605839416,
+      "Recall": 0.8010471204188482,
+      "F1": 0.6580645161290323,
+      "ROC_AUC": 0.9310306685754536,
+      "PR_AUC": 0.7431834872596078,
+      "CV_ROC_AUC": 0.927706232796767,
+      "Fit_seconds": 0.4054634999483824
+    },
+    {
+      "Model": "CatBoost",
+      "Accuracy": 0.8750512085210979,
+      "Precision": 0.5714285714285714,
+      "Recall": 0.806282722513089,
+      "F1": 0.6688382193268186,
+      "ROC_AUC": 0.932925046215186,
+      "PR_AUC": 0.7490480907510801,
+      "CV_ROC_AUC": 0.929599810354014,
+      "Fit_seconds": 1.5396877999883145
+    },
+    {
+      "Model": "Random Forest (Optuna)",
+      "Accuracy": 0.8750512085210979,
+      "Precision": 0.569620253164557,
+      "Recall": 0.824607329842932,
+      "F1": 0.6737967914438503,
+      "ROC_AUC": 0.9350215755627828,
+      "PR_AUC": 0.74683300160344,
+      "CV_ROC_AUC": 0.9345822457439009,
+      "Fit_seconds": 2.765255100093782
+    }
+  ],
+  "selected_model": "Random Forest (Optuna)",
+  "selection": "highest train CV ROC-AUC; test excluded",
+  "ablation": [
+    {
+      "Features": "Original",
+      "CV_ROC_AUC": 0.9272333163056755,
+      "CV_std": 0.00661106488769442
+    },
+    {
+      "Features": "Engineered",
+      "CV_ROC_AUC": 0.927706232796767,
+      "CV_std": 0.0050328910593126315
+    },
+    {
+      "Features": "Without PageValues",
+      "CV_ROC_AUC": 0.7755852922704765,
+      "CV_std": 0.010663973492492292
+    }
+  ]
+}

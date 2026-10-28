@@ -105,4 +105,3 @@ cd module-3-churn
 Данные: [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn),
 скачаны из [IBM](https://github.com/IBM/telco-customer-churn-on-icp4d).
 Бизнес-интерпретации являются гипотезами; причинный эффект удержания не измерен.
-Работа подготовлена с помощью OpenAI Codex (анализ материалов, код и оформление).
