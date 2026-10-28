@@ -343,4 +343,5 @@ else:
 row = results.loc[best_name]
 display(Markdown(f"Итоговая модель: **{best_name}**, CV ROC-AUC **{cv_stats[best_name]['mean']:.4f}**, "
     f"holdout ROC-AUC **{row['ROC-AUC']:.4f}**, F1 **{row['F1']:.4f}**, Recall **{row['Recall']:.4f}**. "
-    f"Топ SHAP: {', '.join(shap_ranking.head(5).index)}. Локальная загрузка проверена, GitHub raw требует публикации."))
+    f"Топ SHAP: {', '.join(shap_ranking.head(5).index)}. Локальная загрузка проверена; "
+    f"GitHub raw: {'проверен, прогнозы совпали' if metadata['remote_verified'] else 'не проверен'}."))
